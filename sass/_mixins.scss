@@ -13,3 +13,9 @@
 	background-position: center;
 	background-attachment: fixed;
 }
+
+@mixin placeCardStyles {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
