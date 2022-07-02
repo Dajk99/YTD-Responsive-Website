@@ -433,9 +433,8 @@ body {
 		}
 
 		&-text {
-			margin-bottom: 2em;
-			height: 100px;
-			font-size: 1.7rem;
+			margin-bottom: 1em;
+			font-size: 1.5rem;
 			color: $dark;
 		}
 	}
@@ -504,12 +503,6 @@ body {
 			&-btn {
 				padding: 1em;
 			}
-		}
-	}
-
-	.reviews {
-		&__box-text {
-			margin-bottom: 1em;
 		}
 	}
 }
@@ -648,13 +641,6 @@ body {
 			&-text {
 				font-size: 1.5rem;
 			}
-		}
-	}
-
-	.reviews {
-		&__box-text {
-			height: 70px;
-			margin-bottom: 1em;
 		}
 	}
 }

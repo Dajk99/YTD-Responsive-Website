@@ -598,9 +598,8 @@ body {
 }
 
 .reviews__box-text {
-  margin-bottom: 2em;
-  height: 100px;
-  font-size: 1.7rem;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
   color: #2e2e2e;
 }
 
@@ -667,9 +666,6 @@ body {
   }
   .offers__option-btn {
     padding: 1em;
-  }
-  .reviews__box-text {
-    margin-bottom: 1em;
   }
 }
 
@@ -785,10 +781,6 @@ body {
   }
   .offers__option-text {
     font-size: 1.5rem;
-  }
-  .reviews__box-text {
-    height: 70px;
-    margin-bottom: 1em;
   }
 }
 
