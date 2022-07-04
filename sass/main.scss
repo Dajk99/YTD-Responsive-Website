@@ -392,7 +392,6 @@ body {
 }
 
 // REVIEWS
-
 @media (max-width: 767px) {
 	.reviews.section-padding {
 		padding: 6em 0;
@@ -488,6 +487,55 @@ body {
 		&::before {
 			background-color: $secondary-color;
 		}
+	}
+}
+
+// FOOTER
+.footer {
+	color: $pure-white;
+	background-color: $dark;
+
+	.wrapper {
+		padding: 6em 2em 2em;
+	}
+
+	&__box {
+		font-size: 1.4rem;
+
+		&-desktop {
+			display: none;
+		}
+
+		&-title {
+			margin-bottom: 1em;
+			font-size: 3rem;
+			text-transform: uppercase;
+		}
+
+		&-social {
+			margin: 2em 0 1em;
+		}
+
+		&-link {
+			padding: 0 0.3em;
+			font-size: 3.6rem;
+			color: $pure-white;
+			text-decoration: none;
+			transition: color 0.3s;
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:hover {
+				color: $main-color;
+			}
+		}
+	}
+
+	&__bottom-text {
+		padding: 2em;
+		text-align: center;
 	}
 }
 
@@ -618,6 +666,43 @@ body {
 
 	.offers {
 		background-image: $blue-gradient, url('../img/offers-hero-mid.jpg');
+	}
+
+	.footer {
+		&__boxes {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&__box {
+			margin: 0 2em;
+			width: 25%;
+
+			&:first-child {
+				width: 50%;
+			}
+
+			&-desktop {
+				display: block;
+			}
+
+			&-title {
+				font-size: 2.4rem;
+			}
+
+			&-list {
+				list-style: none;
+
+				&-item {
+					margin-bottom: 1em;
+
+					a {
+						color: $light-white;
+						text-decoration: none;
+					}
+				}
+			}
+		}
 	}
 }
 
