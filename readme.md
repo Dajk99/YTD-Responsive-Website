@@ -12,8 +12,18 @@ The website was created in order to practice the use of the BEM methodology and 
 
 ## Screenshots
 
-A few screenshots just to show the website design
+> Header
+
 ![Screenshot of header](https://github.com/Dajk99/YTD-Responsive-Website/blob/main/img/screenshot-header.PNG)
+
+> Dreams section
+
 ![Screenshot of the dreams section](https://github.com/Dajk99/YTD-Responsive-Website/blob/main/img/screenshot-dreams.PNG)
+
+> Places section
+
 ![Screenshot of the places section](https://github.com/Dajk99/YTD-Responsive-Website/blob/main/img/screenshot-places.PNG)
+
+> Navigation
+
 ![Screenshot of navigation](https://github.com/Dajk99/YTD-Responsive-Website/blob/main/img/screenshot-navigation.png)
